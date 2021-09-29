@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">MiAplicacion</string>
-    <string name="action_settings">ActionSettings</string>
+    <string name="Generos">ActionSettings</string>
     <string name="action_search">ActionSearch</string>
     <string name="action_add">ActionAdd</string>
+    <string name="settings">Settings</string>
 </resources>

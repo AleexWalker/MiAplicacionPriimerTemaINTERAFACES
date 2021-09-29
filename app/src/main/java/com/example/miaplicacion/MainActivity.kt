@@ -26,7 +26,15 @@ class MainActivity : AppCompatActivity() {
         titulo.typeface = ResourcesCompat.getFont(this, R.font.courgette_regular)
 
         jugador.setOnClickListener { lanzarNewPlayer() }
+
         
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        val id = item.itemId
+        if (id == R.id.action_settings)
+            lanzarGeneros()
+        return true
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -34,18 +42,13 @@ class MainActivity : AppCompatActivity() {
         return true
     }
 
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when (item.getItemId()) {
-            (R.id.action_search) -> {
-                Toast.makeText(this, "HOLA SOC EL BOLA", Toast.LENGTH_SHORT).show()
-                return true
-            }
-            (R.id.action_add) -> {return true}
-            else -> {return super.onOptionsItemSelected(item)} }
-    }
-
     fun lanzarNewPlayer(){
         val i = Intent(this, NewPlayer::class.java)
+        startActivity(i)
+    }
+
+    fun lanzarGeneros(){
+        val i = Intent(this, Generos::class.java)
         startActivity(i)
     }
 }

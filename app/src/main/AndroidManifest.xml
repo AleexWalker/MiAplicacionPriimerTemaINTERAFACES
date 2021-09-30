@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MiAplicacion">
         <activity
+            android:name=".Preferencias"
+            android:exported="true" />
+        <activity
             android:name=".Generos"
             android:exported="true" />
         <activity

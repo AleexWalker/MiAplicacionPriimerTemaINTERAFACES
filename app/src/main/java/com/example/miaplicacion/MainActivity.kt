@@ -10,6 +10,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.widget.Toolbar
 import androidx.core.content.res.ResourcesCompat
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -27,7 +28,8 @@ class MainActivity : AppCompatActivity() {
 
         jugador.setOnClickListener { lanzarNewPlayer() }
 
-        
+        button6.setOnClickListener { lanzarPreferencias() }
+
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
@@ -49,6 +51,11 @@ class MainActivity : AppCompatActivity() {
 
     fun lanzarGeneros(){
         val i = Intent(this, Generos::class.java)
+        startActivity(i)
+    }
+
+    fun lanzarPreferencias(){
+        val i = Intent(this, Preferencias::class.java)
         startActivity(i)
     }
 }

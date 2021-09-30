@@ -72,16 +72,23 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <EditText
-            android:id="@+id/editTextTextPersonName3"
-            android:layout_width="wrap_content"
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/TiLayout3"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_column="1"
-            android:layout_span="2"
-            android:ems="10"
-            android:hint="Nickname"
-            android:inputType="textPersonName"
-            tools:ignore="TouchTargetSizeCheck" />
+            android:layout_span="2">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Nickname"
+                android:inputType="textPersonName"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
     </TableRow>
 
     <TableRow
@@ -107,6 +114,7 @@
             android:layout_height="wrap_content"
             android:text="Change"
             android:textColor="#5D4037" />
+
     </TableRow>
 
     <TableRow
@@ -119,16 +127,24 @@
             android:layout_height="50dp"
             app:srcCompat="@android:drawable/sym_call_incoming" />
 
-        <EditText
-            android:id="@+id/editTextTextPersonName5"
-            android:layout_width="wrap_content"
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/TiLayout4"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_column="1"
-            android:layout_span="2"
-            android:ems="10"
-            android:hint="Phone"
-            android:inputType="textPersonName"
-            android:minHeight="48dp" />
+            android:layout_span="2">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Phone"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
     </TableRow>
 
     <TableRow
@@ -155,16 +171,23 @@
             android:layout_height="50dp"
             app:srcCompat="@android:drawable/sym_action_email" />
 
-        <EditText
-            android:id="@+id/editTextTextPersonName6"
-            android:layout_width="wrap_content"
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/TiLayout5"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_column="1"
-            android:layout_span="2"
-            android:ems="10"
-            android:hint="Email"
-            android:inputType="textPersonName"
-            android:minHeight="48dp" />
+            android:layout_span="2">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
 
     </TableRow>
 </TableLayout>

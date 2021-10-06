@@ -20,15 +20,15 @@ class MainActivity : AppCompatActivity() {
 
         val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
-
-        val jugador = findViewById(R.id.button5) as Button
         
         val titulo = findViewById<TextView>(R.id.textView4)
         titulo.typeface = ResourcesCompat.getFont(this, R.font.courgette_regular)
 
-        jugador.setOnClickListener { lanzarNewPlayer() }
+        button5.setOnClickListener { lanzarNewPlayer() }
 
         button6.setOnClickListener { lanzarPreferencias() }
+
+        button.setOnClickListener { lanzarGames() }
 
     }
 
@@ -56,6 +56,11 @@ class MainActivity : AppCompatActivity() {
 
     fun lanzarPreferencias(){
         val i = Intent(this, Preferencias::class.java)
+        startActivity(i)
+    }
+
+    fun lanzarGames(){
+        val i = Intent(this, Games::class.java)
         startActivity(i)
     }
 }

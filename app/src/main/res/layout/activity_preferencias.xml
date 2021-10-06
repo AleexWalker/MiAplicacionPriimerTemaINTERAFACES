@@ -64,23 +64,25 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <RatingBar
-        android:id="@+id/ratingBar"
+        android:id="@+id/rb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="85dp"
         android:layout_marginTop="50dp"
+        android:max="5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioGroup"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <SeekBar
-        android:id="@+id/seekBar"
-        android:layout_width="246dp"
-        android:layout_height="19dp"
-        android:layout_marginStart="76dp"
+        android:id="@+id/sb"
+        android:layout_width="241dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="85dp"
         android:layout_marginTop="24dp"
+        android:max="5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ratingBar" />
+        app:layout_constraintTop_toBottomOf="@+id/rb" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab2"
@@ -90,7 +92,7 @@
         android:layout_marginTop="144dp"
         android:clickable="true"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/seekBar"
+        app:layout_constraintTop_toBottomOf="@+id/sb"
         app:srcCompat="@drawable/ic_android_check"
         tools:ignore="SpeakableTextPresentCheck" />
 

@@ -28,19 +28,15 @@ class Games : AppCompatActivity() {
 
             for (i in arrayCheckBox) {
                 if (i.isSelected) {
+                    string += i.text.toString()
                     validez = true
                 }
             }
 
-            if (!validez)
-                Toast.makeText(this, "No has seleccionado ninguna opcion" , Toast.LENGTH_SHORT).show()
+            if (validez)
+                Toast.makeText(this, string , Toast.LENGTH_SHORT).show()
             else
-                for (i in arrayCheckBox){
-                    if(i.isSelected)
-                        string += i.text.toString()
-
-                }
-            Toast.makeText(this, string, Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "No has selecionado ninguna opcion", Toast.LENGTH_SHORT).show()
         }
     }
 }

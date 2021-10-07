@@ -4,4 +4,17 @@
     <string name="action_search">ActionSearch</string>
     <string name="action_add">ActionAdd</string>
     <string name="settings">Settings</string>
+
+    <string name="nota1">Accion</string>
+    <string name="nota2">Aventura</string>
+    <string name="nota3">Deportes</string>
+    <string name="nota4">Disparos</string>
+    <string name="nota5">Estrategia</string>
+    <string name="nota6">Lucha</string>
+    <string name="nota7">Musical</string>
+    <string name="nota8">Rol</string>
+    <string name="nota9">Simulacion</string>
+    <string name="nota10">MiAplicacion</string>
+    <string name="nota11">MiAplicacion</string>
+
 </resources>

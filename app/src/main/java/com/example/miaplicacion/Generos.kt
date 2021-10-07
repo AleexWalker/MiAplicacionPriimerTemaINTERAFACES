@@ -47,7 +47,6 @@ class Generos : AppCompatActivity() {
         items.add(Tarjeta(R.string.nota15))
         items.add(Tarjeta(R.string.nota16))
 
-
         val recView = findViewById<RecyclerView>(R.id.recyclerView1)
 
         recView.setHasFixedSize(true)

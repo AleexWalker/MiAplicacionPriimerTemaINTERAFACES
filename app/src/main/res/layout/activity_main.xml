@@ -41,67 +41,76 @@
         android:textSize="34sp"
         android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/button"
+        <Button
+            android:id="@+id/button"
 
-        android:layout_width="140dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal|center_vertical"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="4dp"
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="16dp"
 
-        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        app:cornerRadius="20dp"
+            android:layout_marginBottom="4dp"
+            android:text="PLAY"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
 
-        android:text="PLAY" />
+            android:textSize="14sp"
+            app:cornerRadius="20dp" />
 
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="4dp"
+        <Button
+            android:id="@+id/button5"
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="4dp"
 
-        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        app:cornerRadius="20dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="4dp"
 
-        android:text="NEW PLAYER" />
+            android:gravity="center_vertical"
+            android:text="NEW PLAYER"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="14sp"
+            app:cornerRadius="20dp" />
 
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="4dp"
+        <Button
+            android:id="@+id/button6"
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="4dp"
 
-        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        app:cornerRadius="20dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="4dp"
 
-        android:text="PREFERENCES" />
+            android:text="PREFERENCES"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="14sp"
+            app:cornerRadius="20dp" />
 
-    <Button
-        android:id="@+id/button7"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="4dp"
+        <Button
+            android:id="@+id/button7"
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="4dp"
 
-        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        app:cornerRadius="20dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="4dp"
+            android:text="ABOUT"
 
-        android:text="ABOUT" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="14sp"
+            app:cornerRadius="20dp" />
 
 </LinearLayout>
 </LinearLayout>

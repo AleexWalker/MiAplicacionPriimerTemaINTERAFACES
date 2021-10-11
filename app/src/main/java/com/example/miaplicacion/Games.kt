@@ -26,10 +26,10 @@ class Games : AppCompatActivity() {
             var string = "Has seleccionado: "
             var validez = false
 
-            for (i in arrayCheckBox) {
-                if (i.isSelected) {
-                    string += i.text.toString()
+            for (button in arrayCheckBox) {
+                if (button.isChecked) {
                     validez = true
+                    string += button.text.toString()
                 }
             }
 

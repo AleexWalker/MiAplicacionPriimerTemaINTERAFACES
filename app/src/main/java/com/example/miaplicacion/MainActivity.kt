@@ -32,6 +32,7 @@ class MainActivity : AppCompatActivity() {
 
         button.setOnClickListener { lanzarGames() }
 
+        button7.setOnClickListener { lanzarAbout() }
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
@@ -63,6 +64,11 @@ class MainActivity : AppCompatActivity() {
 
     fun lanzarGames(){
         val i = Intent(this, Games::class.java)
+        startActivity(i)
+    }
+
+    fun lanzarAbout(){
+        val i = Intent(this, About::class.java)
         startActivity(i)
     }
 }

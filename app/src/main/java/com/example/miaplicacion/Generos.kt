@@ -56,7 +56,7 @@ class Generos : AppCompatActivity() {
         recView.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
 
         adaptador.onClick = {
-            Toast.makeText(this, ""+ items[recView.getChildAdapterPosition(it)].cadena.toString(), Toast.LENGTH_LONG).show()
+            Toast.makeText(this, ""+ resources.getString(items[recView.getChildAdapterPosition(it)].cadena), Toast.LENGTH_LONG).show()
         }
     }
 }

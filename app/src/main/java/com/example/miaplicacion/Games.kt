@@ -29,7 +29,7 @@ class Games : AppCompatActivity() {
             for (button in arrayCheckBox) {
                 if (button.isChecked) {
                     validez = true
-                    string += button.text.toString()
+                    string += button.text.toString() + ", "
                 }
             }
 

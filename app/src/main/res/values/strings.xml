@@ -14,13 +14,13 @@
     <string name="nota7">Musical</string>
     <string name="nota8">Rol</string>
     <string name="nota9">Simulacion</string>
-    <string name="nota10">MiAplicacion</string>
-    <string name="nota11">MiAplicacion</string>
-    <string name="nota12">MiAplicacion</string>
-    <string name="nota13">MiAplicacion</string>
-    <string name="nota14">MiAplicacion</string>
-    <string name="nota15">MiAplicacion</string>
-    <string name="nota16">MiAplicacion</string>
+    <string name="nota10">Coches</string>
+    <string name="nota11">MMO</string>
+    <string name="nota12">Ciencia Ficcion</string>
+    <string name="nota13">Roleplay</string>
+    <string name="nota14">Carreras</string>
+    <string name="nota15">Battle Royale</string>
+    <string name="nota16">Survival Horror</string>
 
     <string name="nota17">Maria Mata</string>
     <string name="nota18">2014</string>
@@ -35,6 +35,16 @@
     <string name="nota27">Ismael</string>
     <string name="nota28">678</string>
 
+    <string name="Deportes">Deportes</string>
+
+    <string name="baloncesto">Baloncesto</string>
+    <string name="beisbol">Beisbol</string>
+    <string name="ciclismo">Ciclismo</string>
+    <string name="futbol">Futbol</string>
+    <string name="golf">Golf</string>
+    <string name="natacion">Natacion</string>
+    <string name="pinpon">PinPon</string>
+    <string name="tenis">Tenis</string>
 
 
 </resources>

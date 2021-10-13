@@ -39,6 +39,8 @@ class MainActivity : AppCompatActivity() {
         val id = item.itemId
         if (id == R.id.action_settings)
             lanzarGeneros()
+        if (id == R.id.action_deportes)
+            lanzarDeportes()
         return true
     }
 
@@ -69,6 +71,11 @@ class MainActivity : AppCompatActivity() {
 
     fun lanzarAbout(){
         val i = Intent(this, About::class.java)
+        startActivity(i)
+    }
+
+    fun lanzarDeportes(){
+        val i = Intent(this, Deportes::class.java)
         startActivity(i)
     }
 }

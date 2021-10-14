@@ -40,8 +40,8 @@ class Deportes : AppCompatActivity() {
         }
 
         floatingActionButton.setOnClickListener {
+            //if (checkBox.isChecked
             Toast.makeText(this, ""+ resources.getString(itemsDeportes[recView.getChildAdapterPosition(it)].checkBox), Toast.LENGTH_LONG).show()
         }
     }
-
 }

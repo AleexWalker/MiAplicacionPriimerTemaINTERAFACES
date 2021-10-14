@@ -10,6 +10,7 @@ import kotlinx.android.synthetic.main.item_fotos.*
 
 class CardsAdapterDeporte(var items: ArrayList<TarjetaDeportes>) : RecyclerView.Adapter<CardsAdapterDeporte.TarjViewHolder>() {
     lateinit var onClick : (View) -> Unit
+    //lateinit var suggestionList : List<CheckBox>
 
     init {
         this.items = items
